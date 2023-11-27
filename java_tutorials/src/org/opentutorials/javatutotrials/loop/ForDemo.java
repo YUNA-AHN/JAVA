@@ -1,10 +1,10 @@
 package org.opentutorials.javatutotrials.loop;
 
-public class WhileDemo {
+public class ForDemo {
 
 	public static void main(String[] args) {
-		while (true) {
-			System.out.println("Coding EveryBody!");
+		for (int i= 0; i< 10; i++) {
+			System.out.println("Coding Everbody" + i);
 		}
 
 	}
