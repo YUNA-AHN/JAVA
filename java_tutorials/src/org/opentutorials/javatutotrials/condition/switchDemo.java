@@ -7,6 +7,7 @@ public class switchDemo {
 		// switch(값) - case
 		// 값과 일치하는 case 부터 그 이후에 작성되어 있는 실행문 실행
 		// 만약 해당 값만 실행하고 싶다면 break 이용
+		// case에 존재하지 않는 값이면 default에 있는 값 실행
 		switch(4) {
 		case 1:
 			System.out.println("one");
@@ -20,8 +21,5 @@ public class switchDemo {
 		default:
 			System.out.println("default");
 		}
-		
-
 	}
-
 }
