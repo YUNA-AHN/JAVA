@@ -1,12 +1,15 @@
 package org.opentutorials.oop.scope;
 
-public class ScopeDemo {
+public class ScopeDemo2 {
+	static int i;
+	
 	static void a() {
-		// 여기서 i는 메소드 내에서만 유효한 변수!
-		int i = 0;
+		i = 0;
+		System.out.println(i);
 	}
+	
 	public static void main(String[] args) {
-		for (int i = 0; i < 5; i++) {
+		for (i = 0; i < 5; i++) {
 			a();
 			System.out.println(i);
 		}
